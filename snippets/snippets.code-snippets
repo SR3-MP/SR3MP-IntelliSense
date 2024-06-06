@@ -1,1 +1,43 @@
-{}
+{
+	// Place your snippets for lua here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Play Audio Clip":
+	{
+		"prefix":
+		[
+			"audio.play_one_shot",
+			"play_one_shot"
+		],
+		"body":
+		[
+			"local playid --[[ integer ]] = audio.play_one_shot(group --[[ string ]], clip --[[ string ]], delay --[[ integer ]])"
+		],
+		"description": "Play a short clip with a specific group and clip name."
+	},
+
+	"Stop Audio Clip":
+	{
+		"prefix":
+		[
+			"audio.stop",
+			"stop"
+		],
+		"body":
+		[
+			"audio.stop(playid --[[ integer ]])"
+		],
+		"description": "Stop a playing audio clip."
+	}
+}
