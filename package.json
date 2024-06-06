@@ -2,6 +2,7 @@
   "name": "sr3mp-intellisense",
   "displayName": "SR3MP IntelliSense",
   "description": "SR3MP IntelliSense",
+  "icon": "images/logo.png",
   "publisher": "SR3MP",
   "version": "0.0.1",
   "engines": {
