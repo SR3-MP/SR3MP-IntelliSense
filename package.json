@@ -5,6 +5,10 @@
   "icon": "images/logo.png",
   "publisher": "SR3MP",
   "version": "0.0.2",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/SR3-MP/SR3MP-IntelliSense"
+	},
   "engines": {
     "vscode": "^1.90.0"
   },
