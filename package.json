@@ -2,6 +2,7 @@
   "name": "sr3mp-intellisense",
   "displayName": "sr3mp-intellisense",
   "description": "SR3MP IntelliSense",
+  "publisher": "SR3MP",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
