@@ -39,5 +39,35 @@
 			"audio.stop(playid --[[ integer ]])"
 		],
 		"description": "Stop a playing audio clip."
+	},
+
+	"Register event":
+	{
+		"prefix":
+		[
+			"event.register",
+			"register"
+		],
+		"body":
+		[
+			"event.register(name --[[ string ]])"
+		],
+		"description": "Register an event by name."
+	},
+
+	"Create event handler":
+	{
+		"prefix":
+		[
+			"event.add_handler",
+			"add_handler"
+		],
+		"body":
+		[
+			"event.add_handler(name --[[ string ]], function()",
+			"--TODO: Code goes here...",
+			"end)"
+		],
+		"description": "Add an handler to a specific event. (Need to be registered first)"
 	}
 }

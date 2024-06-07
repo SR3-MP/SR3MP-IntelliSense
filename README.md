@@ -1,3 +1,5 @@
-# sr3mp-intellisense README
+# SR3MP IntelliSense
 
-SR3MP IntelliSense (Work in progress...)
+- [x] Support for SR3MP's LUA implementation
+- [x] Support for game functions
+- [ ] Support for vector and matrix types.

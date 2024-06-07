@@ -1,22 +1,40 @@
 {
   "name": "sr3mp-intellisense",
   "displayName": "SR3MP IntelliSense",
-  "description": "SR3MP IntelliSense",
+  "description": "IntelliSense support for the Lua Script runtime used by SR3MP",
   "icon": "images/logo.png",
   "publisher": "SR3MP",
-  "version": "0.0.2",
-  "repository": {
+  "license": "MIT",
+  "version": "0.0.3",
+  "repository":
+  {
 		"type": "git",
 		"url": "https://github.com/SR3-MP/SR3MP-IntelliSense"
 	},
-  "engines": {
+  "engines":
+  {
     "vscode": "^1.90.0"
   },
-  "categories": [
-    "Snippets"
+  "categories":
+  [
+    "Snippets",
+    "Programming Languages"
   ],
-  "contributes": {
-    "snippets": [
+  "keywords":
+  [
+    "Lua",
+    "SR3MP",
+    "Snippets",
+    "IntelliSense"
+  ],
+  "extensionDependencies":
+  [
+    "sumneko.lua"
+  ],
+  "contributes":
+  {
+    "snippets":
+    [
       {
         "language": "lua",
         "path": "./snippets/snippets.code-snippets"
